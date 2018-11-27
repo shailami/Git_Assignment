@@ -1,0 +1,37 @@
+ git init
+ ls -la
+ git status
+ git add .
+ git add firstfile.txt
+git commit -m "Adds firstfile and first commit"
+git log
+git help
+git log -n
+git log --author="Mishra"
+git log --since=2018-11-21
+git log --until=2018-11-21
+git log --grep="Adds"
+cat HEAD
+cd refs
+cd headse
+cat master
+git config --global user.email="shailajamishra1997@gmail.com"
+git init
+git remote add origin https://github.com/shailami/MyProject1.git
+git add .
+git push origin master
+git checkout -b newbranch
+git checkout --index.html
+git reset HEAD resource.html
+git commit --amend -m "Ammends commits done in repository"
+git diff --staged
+cat .git/HEAD
+cat .git/refs/heads/master
+git reset --soft da38947484
+git reset --mixed da38947484
+git reset --hard da38947484
+git clean -n
+git clean -f
+git branch --merged master
+git branch --merged
+git branch --no -merged
